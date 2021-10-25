@@ -9,9 +9,8 @@ statement ::= "OUTPUT" (ident) nl
     | "GOTO" ident nl
     | ident "=" expression nl
 expression ::= term {( "-" | "+" ) term}
-term ::= primary
-primary ::= number | ident
-number ::= digit_excluding_zero, {digit}
+term ::= number | ident
+number ::= digit_excluding_zero, {digit} | "0"
 ident ::= lower_char, {lower_char | digit}
 digit_excluding_zero ::= "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
 digit ::= 0 | digit_excluding_zero

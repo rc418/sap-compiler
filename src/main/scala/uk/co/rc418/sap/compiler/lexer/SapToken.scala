@@ -18,7 +18,7 @@ case class EOF() extends SapToken
 case class NEWLINE() extends SapToken
 
 case class NUMBER(number: Int) extends SapToken {
-  require(number > 0 && number < 256)
+  require(number >= 0 && number < 256)
 }
 
 case class IDENTIFIER(id: String) extends SapToken
