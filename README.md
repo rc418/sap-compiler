@@ -1,4 +1,4 @@
-This is a compiler for a simple language for the Ben Eater version of the SAP-1 computer.
+This is a compiler for a simple language for the Ben Eater version of the SAP-1 computer https://eater.net/.
 
 ## EBNF
 ```
