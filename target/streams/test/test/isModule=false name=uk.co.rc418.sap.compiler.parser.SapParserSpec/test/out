@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[32mSapParserSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mParser[0m[0m
+[0m[[0minfo[0m] [0m[32m  when passed valid code[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should parse valid program 1[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should parse valid program 2[0m[0m
+[0m[[0minfo[0m] [0m[32m  when passed invalid code[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should Missing variable declaration[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should Duplicated LET statement[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should Variable definitions must be at top of program[0m[0m
