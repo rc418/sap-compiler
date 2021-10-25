@@ -1,5 +1,0 @@
-#Successful Tests
-#Mon Oct 25 19:10:46 BST 2021
-uk.co.rc418.sap.compiler.parser.SapParserSpec=1635185446066
-uk.co.rc418.sap.compiler.asm.SapCompilerSpec=1635185445909
-uk.co.rc418.sap.compiler.lexer.LexerSpec=1635185446023
